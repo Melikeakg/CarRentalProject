@@ -1,0 +1,82 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\images\244f1317-3137-4a35-b43d-7f0624870afb.jpg" />
+    <Content Remove="wwwroot\images\603bc044-5cbe-434e-9d6d-a1bf809a6404.jpg" />
+    <Content Remove="wwwroot\images\669cbec8-b76e-4d37-9a5a-bbdb552e4a80.jpg" />
+    <Content Remove="wwwroot\images\759d421f-cb52-42a7-afcd-51e6ff4d2c8c.jpg" />
+    <Content Remove="wwwroot\images\9acd2bdd-77ab-485f-b5db-c5368bf80969.jpg" />
+    <Content Remove="wwwroot\images\9f4cf4dc-8d66-46e6-95aa-eb7fba76956d.jpg" />
+    <Content Remove="wwwroot\images\b0dd6efe-ec16-4f9c-8d96-ce8ea06b3197.jpg" />
+    <Content Remove="wwwroot\images\e1640cb4-0335-4f0f-8a7e-633d4e5ed5bb.jpg" />
+    <Content Remove="wwwroot\images\e7b5990e-8110-446a-a847-eaa76de5aa63.jpg" />
+    <Content Remove="wwwroot\images\e8d3a686-e4f5-4446-9abd-9942de9b3224.jpg" />
+    <Content Remove="wwwroot\images\ee985794-8fc1-4c48-902e-c739d850f963.jpg" />
+    <Content Remove="wwwroot\images\eea10854-cc06-453a-b4f6-85d945077ae9.jpg" />
+    <Content Remove="wwwroot\images\fcfc3d38-5b8e-4292-b408-4ce494dc9ddb.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\244f1317-3137-4a35-b43d-7f0624870afb.jpg" />
+    <None Include="wwwroot\images\603bc044-5cbe-434e-9d6d-a1bf809a6404.jpg" />
+    <None Include="wwwroot\images\669cbec8-b76e-4d37-9a5a-bbdb552e4a80.jpg" />
+    <None Include="wwwroot\images\759d421f-cb52-42a7-afcd-51e6ff4d2c8c.jpg" />
+    <None Include="wwwroot\images\9acd2bdd-77ab-485f-b5db-c5368bf80969.jpg" />
+    <None Include="wwwroot\images\9f4cf4dc-8d66-46e6-95aa-eb7fba76956d.jpg" />
+    <None Include="wwwroot\images\b0dd6efe-ec16-4f9c-8d96-ce8ea06b3197.jpg" />
+    <None Include="wwwroot\images\cd60d953-3f68-47b6-921c-b5217e3fd8c2.jpg" />
+    <None Include="wwwroot\images\e1640cb4-0335-4f0f-8a7e-633d4e5ed5bb.jpg" />
+    <None Include="wwwroot\images\e7b5990e-8110-446a-a847-eaa76de5aa63.jpg" />
+    <None Include="wwwroot\images\e8d3a686-e4f5-4446-9abd-9942de9b3224.jpg" />
+    <None Include="wwwroot\images\ee985794-8fc1-4c48-902e-c739d850f963.jpg" />
+    <None Include="wwwroot\images\eea10854-cc06-453a-b4f6-85d945077ae9.jpg" />
+    <None Include="wwwroot\images\fcfc3d38-5b8e-4292-b408-4ce494dc9ddb.jpg" />
+    <None Include="wwwroot\js\site.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\LICENSE" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\LICENSE.md" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Business\Business.csproj" />
+    <ProjectReference Include="..\Core\Core.csproj" />
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
+    <ProjectReference Include="..\Entities\Entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Uploads\" />
+  </ItemGroup>
+
+</Project>
